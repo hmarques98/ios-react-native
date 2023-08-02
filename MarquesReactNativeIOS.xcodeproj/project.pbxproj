@@ -11,6 +11,12 @@
 		10B6D6DA2A7A62DE00EAC075 /* MarquesReactNativeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B6D6CF2A7A62DD00EAC075 /* MarquesReactNativeIOS.framework */; };
 		10B6D6DF2A7A62DE00EAC075 /* MarquesReactNativeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6D6DE2A7A62DE00EAC075 /* MarquesReactNativeIOSTests.swift */; };
 		10B6D6E02A7A62DE00EAC075 /* MarquesReactNativeIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B6D6D22A7A62DD00EAC075 /* MarquesReactNativeIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B6D6F02A7A637E00EAC075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6D6EF2A7A637E00EAC075 /* AppDelegate.swift */; };
+		10B6D6F22A7A637E00EAC075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6D6F12A7A637E00EAC075 /* SceneDelegate.swift */; };
+		10B6D6F42A7A637E00EAC075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6D6F32A7A637E00EAC075 /* ViewController.swift */; };
+		10B6D6F72A7A637E00EAC075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6F52A7A637E00EAC075 /* Main.storyboard */; };
+		10B6D6F92A7A637F00EAC075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6F82A7A637F00EAC075 /* Assets.xcassets */; };
+		10B6D6FC2A7A637F00EAC075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6FA2A7A637F00EAC075 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		10B6D6D32A7A62DD00EAC075 /* MarquesReactNativeIOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MarquesReactNativeIOS.docc; sourceTree = "<group>"; };
 		10B6D6D92A7A62DE00EAC075 /* MarquesReactNativeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarquesReactNativeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B6D6DE2A7A62DE00EAC075 /* MarquesReactNativeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarquesReactNativeIOSTests.swift; sourceTree = "<group>"; };
+		10B6D6ED2A7A637E00EAC075 /* MarquesReactNativeiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarquesReactNativeiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B6D6EF2A7A637E00EAC075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10B6D6F12A7A637E00EAC075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10B6D6F32A7A637E00EAC075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10B6D6F62A7A637E00EAC075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10B6D6F82A7A637F00EAC075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B6D6FB2A7A637F00EAC075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10B6D6FD2A7A637F00EAC075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10B6D6EA2A7A637E00EAC075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				10B6D6D12A7A62DD00EAC075 /* MarquesReactNativeIOS */,
 				10B6D6DD2A7A62DE00EAC075 /* MarquesReactNativeIOSTests */,
+				10B6D6EE2A7A637E00EAC075 /* MarquesReactNativeiOSExample */,
 				10B6D6D02A7A62DD00EAC075 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				10B6D6CF2A7A62DD00EAC075 /* MarquesReactNativeIOS.framework */,
 				10B6D6D92A7A62DE00EAC075 /* MarquesReactNativeIOSTests.xctest */,
+				10B6D6ED2A7A637E00EAC075 /* MarquesReactNativeiOSExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,20 @@
 				10B6D6DE2A7A62DE00EAC075 /* MarquesReactNativeIOSTests.swift */,
 			);
 			path = MarquesReactNativeIOSTests;
+			sourceTree = "<group>";
+		};
+		10B6D6EE2A7A637E00EAC075 /* MarquesReactNativeiOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				10B6D6EF2A7A637E00EAC075 /* AppDelegate.swift */,
+				10B6D6F12A7A637E00EAC075 /* SceneDelegate.swift */,
+				10B6D6F32A7A637E00EAC075 /* ViewController.swift */,
+				10B6D6F52A7A637E00EAC075 /* Main.storyboard */,
+				10B6D6F82A7A637F00EAC075 /* Assets.xcassets */,
+				10B6D6FA2A7A637F00EAC075 /* LaunchScreen.storyboard */,
+				10B6D6FD2A7A637F00EAC075 /* Info.plist */,
+			);
+			path = MarquesReactNativeiOSExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = 10B6D6D92A7A62DE00EAC075 /* MarquesReactNativeIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		10B6D6EC2A7A637E00EAC075 /* MarquesReactNativeiOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B6D6FE2A7A637F00EAC075 /* Build configuration list for PBXNativeTarget "MarquesReactNativeiOSExample" */;
+			buildPhases = (
+				10B6D6E92A7A637E00EAC075 /* Sources */,
+				10B6D6EA2A7A637E00EAC075 /* Frameworks */,
+				10B6D6EB2A7A637E00EAC075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarquesReactNativeiOSExample;
+			productName = MarquesReactNativeiOSExample;
+			productReference = 10B6D6ED2A7A637E00EAC075 /* MarquesReactNativeiOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					10B6D6D82A7A62DE00EAC075 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					10B6D6EC2A7A637E00EAC075 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				10B6D6CE2A7A62DD00EAC075 /* MarquesReactNativeIOS */,
 				10B6D6D82A7A62DE00EAC075 /* MarquesReactNativeIOSTests */,
+				10B6D6EC2A7A637E00EAC075 /* MarquesReactNativeiOSExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B6D6EB2A7A637E00EAC075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B6D6FC2A7A637F00EAC075 /* LaunchScreen.storyboard in Resources */,
+				10B6D6F92A7A637F00EAC075 /* Assets.xcassets in Resources */,
+				10B6D6F72A7A637E00EAC075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +274,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10B6D6E92A7A637E00EAC075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B6D6F42A7A637E00EAC075 /* ViewController.swift in Sources */,
+				10B6D6F02A7A637E00EAC075 /* AppDelegate.swift in Sources */,
+				10B6D6F22A7A637E00EAC075 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +293,25 @@
 			targetProxy = 10B6D6DB2A7A62DE00EAC075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10B6D6F52A7A637E00EAC075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B6D6F62A7A637E00EAC075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10B6D6FA2A7A637F00EAC075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B6D6FB2A7A637F00EAC075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		10B6D6E12A7A62DE00EAC075 /* Debug */ = {
@@ -427,6 +524,60 @@
 			};
 			name = Release;
 		};
+		10B6D6FF2A7A637F00EAC075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarquesReactNativeiOSExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmarques98.MarquesReactNativeiOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B6D7002A7A637F00EAC075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarquesReactNativeiOSExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmarques98.MarquesReactNativeiOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,6 +604,15 @@
 			buildConfigurations = (
 				10B6D6E72A7A62DE00EAC075 /* Debug */,
 				10B6D6E82A7A62DE00EAC075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B6D6FE2A7A637F00EAC075 /* Build configuration list for PBXNativeTarget "MarquesReactNativeiOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B6D6FF2A7A637F00EAC075 /* Debug */,
+				10B6D7002A7A637F00EAC075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
