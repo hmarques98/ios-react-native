@@ -32,5 +32,15 @@ final class MarquesReactNativeIOSTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    var marquesReactNaitveIOS: MarquesReactNaitveIOS!
+
+    override func setUp() {
+        marquesReactNaitveIOS = MarquesReactNaitveIOS()
+    }
+
+   func testAdd() {
+       XCTAssertEqual(marquesReactNaitveIOS.add(a: 1, b: 1), 2)
+   }
 
 }

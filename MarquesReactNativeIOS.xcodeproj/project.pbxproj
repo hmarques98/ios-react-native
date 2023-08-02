@@ -17,6 +17,7 @@
 		10B6D6F72A7A637E00EAC075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6F52A7A637E00EAC075 /* Main.storyboard */; };
 		10B6D6F92A7A637F00EAC075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6F82A7A637F00EAC075 /* Assets.xcassets */; };
 		10B6D6FC2A7A637F00EAC075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B6D6FA2A7A637F00EAC075 /* LaunchScreen.storyboard */; };
+		10B6D7022A7A66F800EAC075 /* MarquesReactNaitveIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6D7012A7A66F800EAC075 /* MarquesReactNaitveIOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		10B6D6F82A7A637F00EAC075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B6D6FB2A7A637F00EAC075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B6D6FD2A7A637F00EAC075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B6D7012A7A66F800EAC075 /* MarquesReactNaitveIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarquesReactNaitveIOS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				10B6D6D22A7A62DD00EAC075 /* MarquesReactNativeIOS.h */,
 				10B6D6D32A7A62DD00EAC075 /* MarquesReactNativeIOS.docc */,
+				10B6D7012A7A66F800EAC075 /* MarquesReactNaitveIOS.swift */,
 			);
 			path = MarquesReactNativeIOS;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B6D6D42A7A62DD00EAC075 /* MarquesReactNativeIOS.docc in Sources */,
+				10B6D7022A7A66F800EAC075 /* MarquesReactNaitveIOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +501,7 @@
 		10B6D6E72A7A62DE00EAC075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -512,6 +517,7 @@
 		10B6D6E82A7A62DE00EAC075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
