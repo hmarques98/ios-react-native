@@ -9,6 +9,9 @@ import Foundation
 
 
 public final class MarquesReactNaitveIOS {
+    
+    public init() {}
+
 
     let name = "MarquesReactNaitveIOS"
     
