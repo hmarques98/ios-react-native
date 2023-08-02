@@ -2,6 +2,7 @@ import Foundation
 import React
 
 class RNViewManager: NSObject {
+    
     var bridge: RCTBridge?
     
     static let sharedInstance = RNViewManager()

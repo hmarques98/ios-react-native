@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MarquesReactNativeIOS"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -17,6 +17,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/hmarques98/ios-react-native.git", :tag => "#{spec.version}" }
-  spec.source_files  = "MarquesReactNativeIOS/**/*.{h,m,swift}"
+  spec.source_files  = "ios/MarquesReactNativeIOS/**/*.{h,m,swift}"
   
 end
