@@ -19,6 +19,4 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/hmarques98/ios-react-native.git", :tag => "#{spec.version}" }
   spec.source_files  = "MarquesReactNativeIOS/**/*.{h,m,swift}"
   
-  spec.dependency = "AudioKit"
-
 end
