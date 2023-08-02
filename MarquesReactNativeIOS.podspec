@@ -15,6 +15,7 @@ This CocoaPods library helps you perform calculation.
 
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
+  spec.dependency = "React"
 
   spec.source        = { :git => "https://github.com/hmarques98/ios-react-native.git", :tag => "#{spec.version}" }
   spec.source_files  = "ios/MarquesReactNativeIOS/**/*.{h,m,swift}"
